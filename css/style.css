@@ -1,0 +1,15 @@
+.sec1{
+    background-image: url(../images/istockphoto-1340492659-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.gen3{
+    display: flex;
+}
+a:hover{
+    background-color: coral;
+}
