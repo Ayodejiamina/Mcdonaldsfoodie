@@ -11,39 +11,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-    
-    <div class="container">
-        <nav class="navbar navbar-expand-sm bg-secondary mb-5 rounded-top fixed-top" style="z-index: 1;">
+<body style="color: navy;">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm mb-0 fixed-top" style="z-index: 1; background-color: navy;">
             <div class="container-fluid">
-                <a  class="navbar-brand text-danger" ><img src="images/istockphoto-1144823591-612x612.jpg" alt="food" width="50px">McDonalds</a>
-                <ul class="nav-bar nav">
-                    <li class="nav-item"><a  class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a  class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a  class="nav-link" href="#">Offer</a></li>
-                    <li class="nav-item"><a  class="nav-link" href="menu.html">Menu</a></li>
-                    <li class="nav-item"><a  class="nav-link" href="gallery.html">gallery</a></li>
-                    <li class="nav-item"><a  class="nav-link" href="contact.html">Contacts</a></li>
+                <a class="navbar-brand rounded-circle" style="color: white;"><img src="images/McDonaldsfoodie.jpg" alt="food" width="50px">McDonalds</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="fas fa-bars" style="color: white; font-weight: bolder;"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="nav-bar nav ms-auto ">
+                    <li class="nav-item "><a  class="nav-link" style="color:white;" href="index.html">Home</a></li>
+                    <li class="nav-item "><a  class="nav-link" style="color:white;" href="#about">About</a></li>
+                    <li class="nav-item "><a  class="nav-link" style="color: white;" href="menu.html">Menu</a></li>
+                    <li class="nav-item "><a  class="nav-link" style="color:white;" href="gallery.html">gallery</a></li>
+                    <li class="nav-item "><a  class="nav-link" style="color: white;" href="news.html">News</a></li>
+                    <li class="nav-item "><a  class="nav-link" style="color:white;" href="contact.html">Contacts</a></li>
+    
                 </ul>
+                  </div>
             </div>
-        </nav>
+        </nav> 
     </div>
+  
     <div class="sec1">
         <marquee behavior="" direction="">
         <div class="container mt-5 text-center">
-            <h1 class="text-info">Our Menu</h1>
-            <h2 class="text-info">Our delicious meal include many varieties.</h2>
+            <h1 style="color:navy ;">Our Menu</h1>
+            <h2 style="color:navy ;">Our delicious meal include many varieties.</h2>
         </div>
         </marquee>
     </div>
-    <div class="container">
-        <div class="container text-center">
+    <div class="container-fluid">
+        <div class="container text-center mt-5" style="background-color:rgb(65, 65, 122); color: white; width: 50%;">
             <h1>Delicious Menu</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, et.</p>
+            <p>We have all sort of menu for dinning period.</p>
         </div>
-        <ul class="nav nav-pills" role="tablist">
+        <ul class="nav nav-btn-warning" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" data-bs-toggle="pill" href="#Breakfast">Breakfast</a>
+              <a class="nav-link active " data-bs-toggle="pill" href="#Breakfast">Breakfast</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="pill" href="#Lunch">Lunch</a>
@@ -60,54 +66,59 @@
           <div class="tab-content">
             <div id="Breakfast" class="container tab-pane active"><br>
               <div class="row">
-                  <div class="col d-flex">
-                      <img class="rounded-circle" src="images/istockphoto-1213777251-612x612.jpg" alt="" width="100%" height="100px">
+                  <div class="col-sm d-flex cont1">
+                      <img class="rounded-circle" src="images/istockphoto-1213777251-612x612.jpg" alt="" width="80%" height="100px">
                       <div class="">
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                          <p class="text-danger">$60.00</p>
+                          <p style="font-weight: bold;">Pizza Appetizer</p>
+                         <p style="color: black;">Spinach and artichokes in a creamy cheese dip with warm tortilla chips & salsa.</p>
+                          <p style="color: black;">$60.00</p>
                       </div>
                   </div>
-                  <div class="col d-flex">
-                    <img class="rounded-circle" src="images/istockphoto-588372896-612x612.jpg" alt="" width="100%" height="100px">
+                  <div class="col d-flex cont2">
+                    <img class="rounded-circle" src="images/istockphoto-588372896-612x612.jpg" alt="" width="80%" height="100px">
                     <div class="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                        <p  class="text-danger">$29.00</p>
+                        <p style="font-weight: bold;">Abacha with roasted fish</p>
+                           <p style="color: black;"> Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and salad cream.</p>
+                        <p  style="color: black;">$29.00</p>
                     </div>
                 </div>
 
               </div>
 
               <div class="row">
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/istockphoto-1045043934-612x612.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex cont3">
+                    <img class="rounded-circle" src="images/istockphoto-1045043934-612x612.jpg" alt="" width="80%" height="100px">
                     <div class="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                        <p  class="text-danger">$35.50</p>
+                        <p style="font-weight: bold;">Hamburger with lettuce leaf</p><p style="color: black;">Spinach and artichokes in a creamy cheese dip with warm tortilla chips & salsa.</p>
+                        <p style="color: black;">$35.50</p>
                     </div>
                 </div>
-                <div class="col d-flex">
-                  <img class="rounded-circle" src="images/rice-dish-4240511__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex cont4">
+                  <img class="rounded-circle" src="images/rice-dish-4240511__340.jpg" alt="" width="80%" height="100px">
                   <div class="">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                      <p  class="text-danger">$32.50</p>
+                      <p style="font-weight:bolder"> Fried rice with carrots</p>
+                      <p style="color: black;">Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and sour cream.</p>
+                      <p style="color: black;">$32.50</p>
                   </div>
               </div>
 
             </div>
 
             <div class="row">
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/russian-4005732__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex cont5">
+                    <img class="rounded-circle" src="images/russian-4005732__340.jpg" alt="" width="80%" height="100px">
                     <div class="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                        <p  class="text-danger">$41.20</p>
+                        <p style="font-weight: bold;">Goat meat pepper soup</p>
+                            <p style="color: black;">A heaping mountain of rings, handmade with Panko breading and shredded coconut flakes.</p>
+                        <p style="color: black;">$41.20</p>
                     </div>
                 </div>
-                <div class="col d-flex">
-                  <img class="rounded-circle" src="images/turkey-315079__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex cont6">
+                  <img class="rounded-circle" src="images/turkey-315079__340.jpg" alt="" width="80%" height="100px">
                   <div class="">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore doloribus praesentium quibusdam ut, pariatur nemo.</p>
-                      <p  class="text-danger">$35.10</p>
+                      <p style="font-weight: bold;">Fried turkey laps with lettuce leaf</p>
+                      <p style="color: black;">A heaping mountain of rings, handmade with Panko breading and shredded coconut flakes.</p>
+                      <p style="color: black;">$35.10</p>
                   </div>
               </div>
 
@@ -116,52 +127,52 @@
             </div>
             <div id="Lunch" class="container tab-pane fade"><br>
               <div class="row">
-                  <div class="col d-flex">
-                      <img class="rounded-circle" src="images/meat-skewer-1440105__340.jpg" alt="" width="100%" height="100px">
-                      <div>
-                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                          <p class="text-success">$18.00</p>
+                  <div class="col-sm d-flex cod1">
+                      <img class="rounded-circle" src="images/meat-skewer-1440105__340.jpg" alt="" width="80%" height="100px">
+                      <div><h3>Meat Skewer</h3>
+                          <p style="color: black;">Meat skewer is a meat rich with protein.Extracted from ostrich flesh,with round onions.</p>
+                          <p style="color: black;">$18.00</p>
                       </div>
                   </div>
-                  <div class="col d-flex">
-                    <img class="rounded-circle" src="images/pancakes-2020870__340.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                        <p class="text-success">$36.00</p>
+                  <div class="col-sm d-flex cod2">
+                    <img class="rounded-circle" src="images/pancakes-2020870__340.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Sausage Roll</h3>
+                        <p style="color: black;">Sausage roll filled with combination of meat and chicken with cabbage.</p>
+                        <p style="color: black;">$36.00</p>
                     </div>
                 </div>
 
               </div>
               <div class="row">
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/noodles-3557358__340.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                        <p class="text-success">$50.00</p>
+                <div class="col-sm d-flex cod3">
+                    <img class="rounded-circle" src="images/noodles-3557358__340.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Ramyeon Noodles</h3>
+                        <p style="color: black;">Ramyeon noodles,with sliced spices and snail meat.Rich with vitamins and roughages. </p>
+                    <p style="color: black;">$50.00</p>
                     </div>
                 </div>
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/pasta-3547078__340.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                        <p class="text-success">$40.90</p>
+                <div class="col-sm d-flex cod4">
+                    <img class="rounded-circle" src="images/pasta-3547078__340.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Pasta Cuisine</h3>
+                        <p style="color: black;">Pasta cuisine dish with abang leaves,with sprinkled glucose,to nourish the skin.</p>
+                        <p style="color: black;">$40.90</p>
                     </div>
                 </div>
 
             </div>
             <div class="row">
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/bread-4077812__340.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                        <p class="text-success">$20.00</p>
+                <div class="col-sm d-flex cod5">
+                    <img class="rounded-circle" src="images/bread-4077812__340.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Bread Croissants</h3>
+                        <p style="color: black;">Roasted Bread with hot dog and cabbages inside to feel nourishments. </p>
+                        <p style="color: black;">$20.00</p>
                     </div>
                 </div>
-                <div class="col d-flex">
-                    <img class="rounded-circle" src="images/plum-cake-3641849__340.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem earum magnam illum at, facere voluptas.</p>
-                        <p class="text-success">$30.00</p>
+                <div class="col-sm d-flex cod6">
+                    <img class="rounded-circle" src="images/plum-cake-3641849__340.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Meat-grind Skewer </h3>
+                        <p style="color: black;">Grind skewer is a meat filled with spices and vegetables ,to increase the rate of metabolism.</p>
+                        <p style="color: black;">$30.00</p>
                     </div>
                 </div>
 
@@ -171,54 +182,55 @@
             </div>
             <div id="Dinner" class="container tab-pane fade"><br>
               <div class="row">
-                  <div class="col d-flex">
-                     <img class="rounded-circle" src="images/turkey-315079__340.jpg" alt="" width="100%" height="100px">
-                     <div>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                         <p class="text-warning">$30.50</p>
+                  <div class="col-sm d-flex col1">
+                     <img class="rounded-circle" src="images/turkey-315079__340.jpg" alt="" width="80%" height="100px">
+                     <div><h3>Meat-grind Skewer </h3>
+                         <p style="color: black;"> Grind skewer is a meat filled with spices and vegetables ,to increase the rate of metabolism.</p>
+
+                         <p style="color: black;">$30.50</p>
                      </div>
                   </div>
-                  <div class="col d-flex">
-                    <img class="rounded-circle" src="images/istockphoto-1213777251-612x612.jpg" alt="" width="100%" height="100px">
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                        <p class="text-warning">$48.00</p>
+                  <div class="col-sm d-flex col2">
+                    <img class="rounded-circle" src="images/istockphoto-1213777251-612x612.jpg" alt="" width="80%" height="100px">
+                    <div><h3>Pasta Cuisine</h3>
+                        <p style="color: black;">Pasta cuisine dish with abang leaves,with sprinkled glucose,to nourish the skin</p>
+                        <p style="color: black;">$48.00</p>
                     </div>
                  </div> 
 
               </div>
 
               <div class="row">
-                <div class="col d-flex">
-                   <img class="rounded-circle" src="images/istockphoto-1091500222-612x612.jpg" alt="" width="100%" height="100px">
-                   <div>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                       <p class="text-warning">$20.50</p>
+                <div class="col-sm d-flex col3">
+                   <img class="rounded-circle" src="images/istockphoto-1091500222-612x612.jpg" alt="" width="80%" height="100px">
+                   <div><h3>Bread Croissants</h3>
+                       <p style="color:black;">Roasted Bread with hot dog and cabbages inside to feel nourishments.</p>
+                       <p style="color: black;">$20.50</p>
                    </div>
                 </div>
-                <div class="col d-flex">
-                  <img class="rounded-circle" src="images/istockphoto-1177031727-612x612.jpg" alt="" width="100%" height="100px">
-                  <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                      <p class="text-warning">$17.50</p>
+                <div class="col-sm d-flex col6">
+                  <img class="rounded-circle" src="images/istockphoto-1177031727-612x612.jpg" alt="" width="80%" height="100px">
+                  <div><h3>Fried rice with carrots</h3>
+                      <p style="color:black;">Lobster and tender shrimp, with onions, sweet peppers, spinach and our three cheese blend. Griddled and served with tomato salsa and sour cream.</p>
+                      <p style="color: black;">$17.50</p>
                   </div>
                </div> 
 
             </div>
 
             <div class="row">
-                <div class="col d-flex">
-                   <img class="rounded-circle" src="images/istockphoto-1031528122-612x612.jpg" alt="" width="100%" height="100px">
-                   <div>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                       <p class="text-warning">$50.50</p>
+                <div class="col-sm d-flex col4">
+                   <img class="rounded-circle" src="images/istockphoto-1031528122-612x612.jpg" alt="" width="80%" height="100px">
+                   <div><h3>Sausage Roll</h3>
+                       <p style="color: black;">Sausage roll filled with combination of meat and chicken with cabbage.</p>
+                       <p style="color: black;">$50.50</p>
                    </div>
                 </div>
-                <div class="col d-flex">
-                  <img class="rounded-circle" src="images/istockphoto-1091500222-612x612.jpg" alt="" width="100%" height="100px">
-                  <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem officia autem nisi aliquid eveniet facilis?</p>
-                      <p class="text-warning">$20.50</p>
+                <div class="col-sm d-flex col5">
+                  <img class="rounded-circle" src="images/istockphoto-1091500222-612x612.jpg" alt="" width="80%" height="100px">
+                  <div><h3>Sharwarma</h3>
+                      <p style="color: black;">Baked flour with Lettuce leaf,cabbages mayioneise bama,with slice beef.</p>
+                      <p style="color: black;">$20.50</p>
                   </div>
                </div> 
 
@@ -229,42 +241,42 @@
             <div id="Drink" class="container tab-pane active"><br>
                <div class="row">
                    
-                        <div class="col d-flex">
-                            <img src="images/alcohol-1853327__340.jpg" alt="" width="100%" height="100px">
+                        <div class="col-sm d-flex sec8">
+                            <img  class="rounded-circle"src="images/alcohol-1853327__340.jpg" alt="" width="80%" height="100px">
                             <div>
                                 <h1>Alcohol</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                                <p class="text-info">$15.20</p>
+                                <p style="color: black;">It's made by fermenting sugar and yeast, and is used in beer, wine, and liquor.</p>
+                                <p style="color: black;">$15.20</p>
                             </div>
      
                         </div>
-                        <div class="col d-flex">
-                         <img src="images/black-coffee-1868462__340.jpg" alt="" width="100%" height="100px">
+                        <div class="col-sm d-flex sec7">
+                         <img  class="rounded-circle" src="images/black-coffee-1868462__340.jpg" alt="" width="80%" height="100px">
                          <div>
-                             <h1>Alcohol</h1>
-                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                             <p class="text-info">$15.20</p>
+                             <h1>Chapman</h1>
+                             <p style="color: black;"> it is traditionally made with a mix of Fanta, Sprite, Cucumber, Lemon, Grenadine and Angostura bitters</p>
+                             <p style="color: black;">$15.20</p>
                          </div>
      
                      </div>
                          
                     </div>
                        <div class="row">
-                        <div class="col d-flex">
-                            <img src="images/coffee-34251__340.jpg" alt="" width="100%" height="100px">
+                        <div class="col-sm d-flex sec0">
+                            <img class="rounded-circle" src="images/coffee-34251__340.jpg" alt="" width="80%" height="100px">
                             <div>
-                           <h1>Alcohol</h1>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                           <p class="text-info">$15.20</p>
+                           <h1>Smoody</h1>
+                           <p style="color: black;">A smoothie commonly has a liquid base, such as fruit juice or milk, yogurt, ice cream or cottage cheese.</p>
+                           <p style="color: black;">$15.20</p>
                             </div>
                        </div>
 
-                   <div class="col d-flex">
-                    <img src="images/orange-1921548__340.jpg" alt="" width="100%" height="100px">
+                   <div class="col-sm d-flex sec2">
+                    <img class="rounded-circle" src="images/orange-1921548__340.jpg" alt="" width="80%" height="100px">
                     <div>
-                        <h1>Alcohol</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                        <p class="text-info">$15.20</p>
+                        <h1>Orange-juice</h1>
+                        <p style="color: black;">Your daily values may be higher depending on your calorie needs,is a liquid extract of the orange tree fruit</p>
+                        <p style="color: black;">$15.20</p>
                     </div>
 
                 </div>
@@ -272,21 +284,21 @@
                </div>
 
                <div class="row">
-                <div class="col d-flex">
-                    <img src="images/alcohol-1853327__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex sec3">
+                    <img class="rounded-circle" src="images/alcohol-1853327__340.jpg" alt="" width="80%" height="100px">
                     <div>
-                        <h1>Alcohol</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                        <p class="text-info">$15.20</p>
+                        <h1>Palmwine</h1>
+                        <p style="color: black;">Beverage created from the sap of various species of palm tree such as the palmyra, date palms.</p>
+                        <p style="color: black;">$15.20</p>
                     </div>
 
                 </div>
-                <div class="col d-flex">
-                 <img src="images/black-coffee-1868462__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex sec4">
+                 <img class="rounded-circle" src="images/black-coffee-1868462__340.jpg" alt="" width="80%" height="100px">
                  <div>
-                     <h1>Alcohol</h1>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                     <p class="text-info">$15.20</p>
+                     <h1>Coffee</h1>
+                     <p style="color: black;">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain flowering plants</p>
+                     <p style="color: black;">$15.20</p>
                  </div>
 
              </div>
@@ -294,21 +306,22 @@
             </div>
 
             <div class="row">
-                <div class="col d-flex">
-                    <img src="images/orange-1921548__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex sec5">
+                    <img  class="rounded-circle" src="images/orange-1921548__340.jpg" alt="" width="80%" height="100px">
                     <div>
-                        <h1>Alcohol</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                        <p class="text-info">$15.20</p>
+                        <h1>Juice</h1>
+                        <p style="color: black;">Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables.</p>
+                        <p style="color: black;">$15.20</p>
                     </div>
 
                 </div>
-                <div class="col d-flex">
-                 <img src="images/drink-3025022__340.jpg" alt="" width="100%" height="100px">
+                <div class="col-sm d-flex sec6">
+                 <img class="rounded-circle" src="images/drink-3025022__340.jpg" alt="" width="80%" height="100px">
                  <div>
-                     <h1>Alcohol</h1>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quia?</p>
-                     <p class="text-info">$15.20</p>
+                     <h1>Coffee-Tea</h1>
+                     <p style="color: black;">Image result for coffee tea
+                        Yuanyang tea is a popular drink in Hong Kong that combines the flavor of both coffee and tea into one deliciously powerful energy-giving drink!</p>
+                     <p style="color: black;">$15.20</p>
                  </div>
 
              </div>
