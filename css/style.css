@@ -13,6 +13,9 @@
 a:hover{
     background-color: blue;
 }
+li a{
+    text-decoration: none;
+}
 @media(max-width:768px){
     .cont1{
        flex-wrap: wrap;
@@ -140,6 +143,9 @@ a:hover{
     .cod6{
         flex-wrap: wrap;
         border-bottom: 1px solid yellow;
+        padding-top: 20px;
+    }
+    .sec90{
         padding-top: 20px;
     }
 }
